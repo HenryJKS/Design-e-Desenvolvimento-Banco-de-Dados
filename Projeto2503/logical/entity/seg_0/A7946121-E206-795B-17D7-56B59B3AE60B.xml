@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7946121-E206-795B-17D7-56B59B3AE60B" name="CURSOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:45:13 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CURSO" id="17C773D4-EDF3-E7DF-3DFB-5227657EF46B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:47:44 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_CURSO" id="9D73642B-1330-2EBE-BCE3-A2E854252379">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:47:56 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREÇO" id="999C4D18-C7CB-3D57-ECC4-3A1E42DF80E1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:49:43 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CARGO" id="D4956136-49E3-EB2A-F627-751CB54FC5A9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:05:37 UTC</createdTime>
+<generatorID>6F0DCD17-5EC6-5F6F-2627-60EB09C5164E</generatorID>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CBCE82A8-6D70-C692-D68F-F58601F10E99</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_IDENTIFICACÃO" id="072FE3B8-14F0-8665-31ED-09DF9D24591A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:09:51 UTC</createdTime>
+<generatorID>20E5228A-85AA-162D-B2A2-2C4D678AB1AB</generatorID>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A3D27466-9E0B-27BB-AA65-3A9A1A14FA71</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ALUNO" id="8756DE6C-53D7-AF9E-8A12-A7F5923B37AE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:39:10 UTC</createdTime>
+<generatorID>A186E1F4-F9C8-4924-AA6E-919812094C8D</generatorID>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F8A09D9D-5038-A598-8A47-DAC7DDB39DC0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C37B4535-1146-3D64-5FF6-6E55690CCA28" name="CURSOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:47:45 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17C773D4-EDF3-E7DF-3DFB-5227657EF46B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

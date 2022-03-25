@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BDF4F1B-2A6F-2776-F571-8B6C1E6E39A4" name="EMPRESA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:44:41 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CARGO" id="CBCE82A8-6D70-C692-D68F-F58601F10E99">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:59:14 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CURSOS" id="FEA97DE4-5E70-1E62-A956-FECE75BE1A66">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:13:26 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPREGADOS" id="C764F047-445A-3A7C-4530-59DF52636C9E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:58:20 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E8ED8D9-9B0B-9EF4-6791-93EAC903F8CC" name="EMPRESA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:58:27 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBCE82A8-6D70-C692-D68F-F58601F10E99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

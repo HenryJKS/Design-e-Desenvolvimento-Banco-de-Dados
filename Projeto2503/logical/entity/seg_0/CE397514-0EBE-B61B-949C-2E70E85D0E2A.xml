@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE397514-0EBE-B61B-949C-2E70E85D0E2A" name="PERIODO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:35:53 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PERIODO" id="FA127724-7EAE-3D8B-0749-F61C376B1DB6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:36:19 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAS" id="5EA876A7-2E21-51D5-B093-BA76ECEFD158">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:36:25 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOITE" id="AC4785F1-2D31-EACB-178D-FCCD7362DC7F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:36:31 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SABADOS" id="8845DBBA-C716-5845-FD53-03373ECAC664">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:36:37 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PERIODO" id="94B27FE1-57E7-9F94-BB47-2926F94202D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:37:08 UTC</createdTime>
+<generatorID>036ADC3E-D71D-02B3-EC56-AE5A6A53E860</generatorID>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<referedAttribute>D3534A94-1B06-93A2-DFAC-40DE5ECDE873</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAEC47BA-C176-C080-F5D4-CA4080660970" name="PERIODO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:36:24 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA127724-7EAE-3D8B-0749-F61C376B1DB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

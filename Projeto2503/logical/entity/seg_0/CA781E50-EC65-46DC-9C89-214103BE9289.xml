@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA781E50-EC65-46DC-9C89-214103BE9289" name="ALUNOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:46:04 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_ALUNO" id="F8A09D9D-5038-A598-8A47-DAC7DDB39DC0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:00:49 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="2E72678A-D7CB-D100-E795-8929F11D6CA3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:01:02 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOBRENOME" id="1AE3BC24-1ED5-19BE-15AD-1541DAC8A879">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:27:57 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDERECO" id="76BFE8A5-8644-63CC-FFE1-B17CED40BF03">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:01:12 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="36894902-A803-F8B1-67A6-631DE151FEEA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:01:29 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="911022CE-7A7B-6EF1-408E-E35E7A85A955">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:29:07 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3289E033-1A78-2648-E698-7E24DFA8B481" name="ALUNOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:00:50 UTC</createdTime>
+<ownerDesignName>Projeto2503</ownerDesignName>
+<engineerTo>
+<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8A09D9D-5038-A598-8A47-DAC7DDB39DC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
