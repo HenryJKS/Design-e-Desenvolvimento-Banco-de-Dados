@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95B05163-BEDD-B43A-48BB-57AABA23984E" name="DURACAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB103BFE-F0C5-5C5A-A060-50A42494BBF0" name="MATRICULAS">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 13:51:16 UTC</createdTime>
+<createdTime>2022-04-01 14:17:21 UTC</createdTime>
 <ownerDesignName>Projeto2503</ownerDesignName>
 <engineerTo>
 <item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
@@ -15,39 +15,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_DURACAO" id="D3534A94-1B06-93A2-DFAC-40DE5ECDE873">
+<Attribute name="COD_ALUNO" id="5F10EF20-0140-50C2-A2C5-BCA1034D5FA7">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:32:26 UTC</createdTime>
+<createdTime>2022-04-01 14:17:36 UTC</createdTime>
+<generatorID>87DFA753-2C56-8FFD-D8F4-017661C406AE</generatorID>
 <ownerDesignName>Projeto2503</ownerDesignName>
 <engineerTo>
 <item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
 </engineerTo>
+<referedAttribute>F8A09D9D-5038-A598-8A47-DAC7DDB39DC0</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRICAO" id="7D531C0D-8EF0-5863-0BB4-AF3203BC80B3">
+<Attribute name="COD_CURSO" id="A2226679-EBDB-D1D8-7159-47302546CE2A">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:35:30 UTC</createdTime>
+<createdTime>2022-04-01 14:18:56 UTC</createdTime>
+<generatorID>C9D6AE9B-61CE-01CC-9825-9875221975A0</generatorID>
 <ownerDesignName>Projeto2503</ownerDesignName>
 <engineerTo>
 <item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
 </engineerTo>
+<referedAttribute>17C773D4-EDF3-E7DF-3DFB-5227657EF46B</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E07031B3-E37F-B080-8EF5-8AC68C2783EF" name="DURACÃO PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:32:32 UTC</createdTime>
-<ownerDesignName>Projeto2503</ownerDesignName>
-<engineerTo>
-<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>D3534A94-1B06-93A2-DFAC-40DE5ECDE873</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

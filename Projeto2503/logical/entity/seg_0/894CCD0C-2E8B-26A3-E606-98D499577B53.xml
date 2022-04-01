@@ -65,27 +65,13 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_CARGO" id="E7724B9B-6796-8C61-133C-D94A605BA792">
+<Attribute name="CERTIFICACAO" id="F7E76B5F-FFD5-4EE7-F7E1-8B83A4AD8B94">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:08:42 UTC</createdTime>
-<generatorID>3CB9CF0A-5CD0-F921-27E6-B288796E57A4</generatorID>
+<createdTime>2022-04-01 13:58:23 UTC</createdTime>
 <ownerDesignName>Projeto2503</ownerDesignName>
 <engineerTo>
 <item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
 </engineerTo>
-<referedAttribute>CBCE82A8-6D70-C692-D68F-F58601F10E99</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_ALUNO" id="CB4A47C3-3ED3-6CAE-97DA-3277D1B01D74">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:27:23 UTC</createdTime>
-<generatorID>9049615D-0271-7A26-DDF9-E89EE1E98482</generatorID>
-<ownerDesignName>Projeto2503</ownerDesignName>
-<engineerTo>
-<item key="3E9C59D7-DE7B-842C-9CE2-E6915AB2C262" value="true"/>
-</engineerTo>
-<referedAttribute>F8A09D9D-5038-A598-8A47-DAC7DDB39DC0</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
